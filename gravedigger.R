@@ -71,7 +71,7 @@ repeat{
     if (A1 == "W") {
         U <- M - 1
     }
-    ## Collission detection
+    ## Collision detection
     if (A[T, U] == D | A[T, U] == B) { # Edge or grave
         print("That way's blocked")
     }
